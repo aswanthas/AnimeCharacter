@@ -1,8 +1,8 @@
-## AnimeCharacter
+# AnimeCharacter
 
 A SwiftUI-based mobile application that lets users explore characters from the Rick and Morty universe. The app includes features like character listing, detailed character views, pagination, pull-to-refresh, and lazy image loading
 
-# Features
+## Features
 
 Character Listing: Displays a list of characters with pagination support.
 Character Details: Shows detailed information about a selected character.
@@ -11,7 +11,7 @@ Login: Basic login screen that persists user credentials.
 Pull-to-Refresh: Refresh the character list by pulling down the list.
 Lazy Image Loading: Efficiently loads and caches images using SDWebImageSwiftUI.
 
-# Technical Stack
+## Technical Stack
 
 Language: Swift
 Framework: SwiftUI
