@@ -11,6 +11,17 @@
 		7D8511C22C32E6C700B5A3A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511C12C32E6C700B5A3A0 /* ContentView.swift */; };
 		7D8511C42C32E6C900B5A3A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8511C32C32E6C900B5A3A0 /* Assets.xcassets */; };
 		7D8511C72C32E6C900B5A3A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8511C62C32E6C900B5A3A0 /* Preview Assets.xcassets */; };
+		7D8511D12C32E90400B5A3A0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511D02C32E90400B5A3A0 /* LoginView.swift */; };
+		7D8511D42C32E96800B5A3A0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7D8511D32C32E96800B5A3A0 /* Alamofire */; };
+		7D8511D62C32E96800B5A3A0 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 7D8511D52C32E96800B5A3A0 /* AlamofireDynamic */; };
+		7D8511D82C32E99D00B5A3A0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511D72C32E99D00B5A3A0 /* NetworkManager.swift */; };
+		7D8511DA2C32E9BB00B5A3A0 /* CharacterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511D92C32E9BB00B5A3A0 /* CharacterListViewModel.swift */; };
+		7D8511DD2C32EA2300B5A3A0 /* CharacterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511DC2C32EA2300B5A3A0 /* CharacterResponse.swift */; };
+		7D8511E02C32F32700B5A3A0 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7D8511DF2C32F32700B5A3A0 /* SDWebImageSwiftUI */; };
+		7D8511E22C32F9F600B5A3A0 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511E12C32F9F600B5A3A0 /* CharacterListView.swift */; };
+		7D8511E42C32FA1800B5A3A0 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511E32C32FA1800B5A3A0 /* CharacterCell.swift */; };
+		7D8511E62C32FA4B00B5A3A0 /* CharacterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511E52C32FA4B00B5A3A0 /* CharacterDetailsView.swift */; };
+		7D8511E82C33194600B5A3A0 /* ApiEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511E72C33194600B5A3A0 /* ApiEndPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,14 @@
 		7D8511C12C32E6C700B5A3A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D8511C32C32E6C900B5A3A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D8511C62C32E6C900B5A3A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D8511D02C32E90400B5A3A0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7D8511D72C32E99D00B5A3A0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7D8511D92C32E9BB00B5A3A0 /* CharacterListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewModel.swift; sourceTree = "<group>"; };
+		7D8511DC2C32EA2300B5A3A0 /* CharacterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterResponse.swift; sourceTree = "<group>"; };
+		7D8511E12C32F9F600B5A3A0 /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		7D8511E32C32FA1800B5A3A0 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		7D8511E52C32FA4B00B5A3A0 /* CharacterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsView.swift; sourceTree = "<group>"; };
+		7D8511E72C33194600B5A3A0 /* ApiEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D8511E02C32F32700B5A3A0 /* SDWebImageSwiftUI in Frameworks */,
+				7D8511D42C32E96800B5A3A0 /* Alamofire in Frameworks */,
+				7D8511D62C32E96800B5A3A0 /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,9 +75,10 @@
 			children = (
 				7D8511BF2C32E6C700B5A3A0 /* AnimeCharacterApp.swift */,
 				7D8511C12C32E6C700B5A3A0 /* ContentView.swift */,
-				7D8511CF2C32E7B400B5A3A0 /* NetworkManager */,
 				7D8511CD2C32E78C00B5A3A0 /* View */,
 				7D8511CE2C32E79600B5A3A0 /* ViewModel */,
+				7D8511DB2C32EA0800B5A3A0 /* DataModel */,
+				7D8511CF2C32E7B400B5A3A0 /* NetworkManager */,
 				7D8511C32C32E6C900B5A3A0 /* Assets.xcassets */,
 				7D8511C52C32E6C900B5A3A0 /* Preview Content */,
 			);
@@ -73,6 +96,10 @@
 		7D8511CD2C32E78C00B5A3A0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7D8511D02C32E90400B5A3A0 /* LoginView.swift */,
+				7D8511E12C32F9F600B5A3A0 /* CharacterListView.swift */,
+				7D8511E32C32FA1800B5A3A0 /* CharacterCell.swift */,
+				7D8511E52C32FA4B00B5A3A0 /* CharacterDetailsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -80,6 +107,7 @@
 		7D8511CE2C32E79600B5A3A0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				7D8511D92C32E9BB00B5A3A0 /* CharacterListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -87,8 +115,18 @@
 		7D8511CF2C32E7B400B5A3A0 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				7D8511D72C32E99D00B5A3A0 /* NetworkManager.swift */,
+				7D8511E72C33194600B5A3A0 /* ApiEndPoint.swift */,
 			);
 			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		7D8511DB2C32EA0800B5A3A0 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				7D8511DC2C32EA2300B5A3A0 /* CharacterResponse.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +145,11 @@
 			dependencies = (
 			);
 			name = AnimeCharacter;
+			packageProductDependencies = (
+				7D8511D32C32E96800B5A3A0 /* Alamofire */,
+				7D8511D52C32E96800B5A3A0 /* AlamofireDynamic */,
+				7D8511DF2C32F32700B5A3A0 /* SDWebImageSwiftUI */,
+			);
 			productName = AnimeCharacter;
 			productReference = 7D8511BC2C32E6C700B5A3A0 /* AnimeCharacter.app */;
 			productType = "com.apple.product-type.application";
@@ -135,6 +178,10 @@
 				Base,
 			);
 			mainGroup = 7D8511B32C32E6C700B5A3A0;
+			packageReferences = (
+				7D8511D22C32E96800B5A3A0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7D8511DE2C32F32700B5A3A0 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 7D8511BD2C32E6C700B5A3A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -161,8 +208,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D8511D82C32E99D00B5A3A0 /* NetworkManager.swift in Sources */,
+				7D8511D12C32E90400B5A3A0 /* LoginView.swift in Sources */,
+				7D8511E22C32F9F600B5A3A0 /* CharacterListView.swift in Sources */,
+				7D8511E42C32FA1800B5A3A0 /* CharacterCell.swift in Sources */,
+				7D8511DD2C32EA2300B5A3A0 /* CharacterResponse.swift in Sources */,
+				7D8511E82C33194600B5A3A0 /* ApiEndPoint.swift in Sources */,
 				7D8511C22C32E6C700B5A3A0 /* ContentView.swift in Sources */,
+				7D8511DA2C32E9BB00B5A3A0 /* CharacterListViewModel.swift in Sources */,
 				7D8511C02C32E6C700B5A3A0 /* AnimeCharacterApp.swift in Sources */,
+				7D8511E62C32FA4B00B5A3A0 /* CharacterDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +423,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7D8511D22C32E96800B5A3A0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		7D8511DE2C32F32700B5A3A0 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D8511D32C32E96800B5A3A0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D8511D22C32E96800B5A3A0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7D8511D52C32E96800B5A3A0 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D8511D22C32E96800B5A3A0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		7D8511DF2C32F32700B5A3A0 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D8511DE2C32F32700B5A3A0 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7D8511B42C32E6C700B5A3A0 /* Project object */;
 }
