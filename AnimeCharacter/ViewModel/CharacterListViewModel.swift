@@ -44,11 +44,9 @@ class CharacterListViewModel: ObservableObject {
         }
     
     func refresh() {
-        isLoading = true
         currentPage = 1
         characters.removeAll()
         fetchCharacters()
-        isLoading = false
     }
     
     func logout() {

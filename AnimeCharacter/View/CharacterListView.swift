@@ -42,14 +42,11 @@ struct CharacterListView: View {
                                     }
                                 }
                         }
-                        if viewModel.isLoading {
-                            ProgressView()
-                                .padding()
-                        }
                     }
                     .padding(.horizontal, 16)
-                    .refreshable {
-                        viewModel.refresh()
+                    if viewModel.isLoading {
+                        ProgressView()
+                            .padding()
                     }
 
                     if let characters = selectedCharacter {
@@ -61,6 +58,11 @@ struct CharacterListView: View {
                         }
                         .hidden() // Hide the NavigationLink
                     }
+                }
+                .background(Color.white)
+                .refreshable {
+                    ProgressView()
+                    viewModel.refresh()
                 }
             }
             .navigationBarTitle("Home")
