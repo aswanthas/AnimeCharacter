@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct AnimeCharacterApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        WindowGroup {  
+            SplashScreen()
         }
     }
 }

@@ -37,12 +37,6 @@ struct LoginView: View {
                 }
             }
             .padding()
-            .onAppear {
-                // Check if user is already logged in
-                if UserDefaults.standard.bool(forKey: "isLoggedIn") {
-                    self.isLoggedIn = true
-                }
-            }
             .background(
                 NavigationLink(
                     destination: CharacterListView(),

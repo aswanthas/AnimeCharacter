@@ -22,6 +22,7 @@
 		7D8511E42C32FA1800B5A3A0 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511E32C32FA1800B5A3A0 /* CharacterCell.swift */; };
 		7D8511E62C32FA4B00B5A3A0 /* CharacterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511E52C32FA4B00B5A3A0 /* CharacterDetailsView.swift */; };
 		7D8511E82C33194600B5A3A0 /* ApiEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511E72C33194600B5A3A0 /* ApiEndPoint.swift */; };
+		7D8511EA2C33228F00B5A3A0 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511E92C33228F00B5A3A0 /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		7D8511E32C32FA1800B5A3A0 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		7D8511E52C32FA4B00B5A3A0 /* CharacterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsView.swift; sourceTree = "<group>"; };
 		7D8511E72C33194600B5A3A0 /* ApiEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndPoint.swift; sourceTree = "<group>"; };
+		7D8511E92C33228F00B5A3A0 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				7D8511BF2C32E6C700B5A3A0 /* AnimeCharacterApp.swift */,
 				7D8511C12C32E6C700B5A3A0 /* ContentView.swift */,
+				7D8511E92C33228F00B5A3A0 /* SplashScreen.swift */,
 				7D8511CD2C32E78C00B5A3A0 /* View */,
 				7D8511CE2C32E79600B5A3A0 /* ViewModel */,
 				7D8511DB2C32EA0800B5A3A0 /* DataModel */,
@@ -214,6 +217,7 @@
 				7D8511E42C32FA1800B5A3A0 /* CharacterCell.swift in Sources */,
 				7D8511DD2C32EA2300B5A3A0 /* CharacterResponse.swift in Sources */,
 				7D8511E82C33194600B5A3A0 /* ApiEndPoint.swift in Sources */,
+				7D8511EA2C33228F00B5A3A0 /* SplashScreen.swift in Sources */,
 				7D8511C22C32E6C700B5A3A0 /* ContentView.swift in Sources */,
 				7D8511DA2C32E9BB00B5A3A0 /* CharacterListViewModel.swift in Sources */,
 				7D8511C02C32E6C700B5A3A0 /* AnimeCharacterApp.swift in Sources */,
