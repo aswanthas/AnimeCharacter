@@ -51,6 +51,9 @@ class CharacterListViewModel: ObservableObject {
     
     func logout() {
         // Logic to handle logout
+        UserDefaults.standard.removeObject(forKey: "isLoggedIn")
+        UserDefaults.standard.removeObject(forKey: "userEmail")
+        UserDefaults.standard.removeObject(forKey: "userPassword")
     }
     
     func shouldLoadNextPage(character: Character) -> Bool {

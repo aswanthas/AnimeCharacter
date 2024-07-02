@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7D8511C02C32E6C700B5A3A0 /* AnimeCharacterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511BF2C32E6C700B5A3A0 /* AnimeCharacterApp.swift */; };
-		7D8511C22C32E6C700B5A3A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511C12C32E6C700B5A3A0 /* ContentView.swift */; };
 		7D8511C42C32E6C900B5A3A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8511C32C32E6C900B5A3A0 /* Assets.xcassets */; };
 		7D8511C72C32E6C900B5A3A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8511C62C32E6C900B5A3A0 /* Preview Assets.xcassets */; };
 		7D8511D12C32E90400B5A3A0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8511D02C32E90400B5A3A0 /* LoginView.swift */; };
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		7D8511BC2C32E6C700B5A3A0 /* AnimeCharacter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeCharacter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8511BF2C32E6C700B5A3A0 /* AnimeCharacterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCharacterApp.swift; sourceTree = "<group>"; };
-		7D8511C12C32E6C700B5A3A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D8511C32C32E6C900B5A3A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D8511C62C32E6C900B5A3A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7D8511D02C32E90400B5A3A0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -76,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				7D8511BF2C32E6C700B5A3A0 /* AnimeCharacterApp.swift */,
-				7D8511C12C32E6C700B5A3A0 /* ContentView.swift */,
 				7D8511E92C33228F00B5A3A0 /* SplashScreen.swift */,
 				7D8511CD2C32E78C00B5A3A0 /* View */,
 				7D8511CE2C32E79600B5A3A0 /* ViewModel */,
@@ -218,7 +215,6 @@
 				7D8511DD2C32EA2300B5A3A0 /* CharacterResponse.swift in Sources */,
 				7D8511E82C33194600B5A3A0 /* ApiEndPoint.swift in Sources */,
 				7D8511EA2C33228F00B5A3A0 /* SplashScreen.swift in Sources */,
-				7D8511C22C32E6C700B5A3A0 /* ContentView.swift in Sources */,
 				7D8511DA2C32E9BB00B5A3A0 /* CharacterListViewModel.swift in Sources */,
 				7D8511C02C32E6C700B5A3A0 /* AnimeCharacterApp.swift in Sources */,
 				7D8511E62C32FA4B00B5A3A0 /* CharacterDetailsView.swift in Sources */,

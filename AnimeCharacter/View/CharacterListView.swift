@@ -18,7 +18,7 @@ struct CharacterListView: View {
         GridItem(.flexible()),
         GridItem(.flexible())
     ]
-    
+    var listdefaultValue = UserDefaults.standard.bool(forKey: "isLoggedIn")
     var body: some View {
         NavigationView {
             VStack {
@@ -48,7 +48,7 @@ struct CharacterListView: View {
                         ProgressView()
                             .padding()
                     }
-
+                    
                     if let characters = selectedCharacter {
                         NavigationLink(
                             destination: CharacterDetailsView(character: characters),
@@ -68,6 +68,16 @@ struct CharacterListView: View {
             .navigationBarTitle("Home")
             .onAppear {
                 self.viewModel.fetchCharacters()
+            }
+            .toolbar {
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        viewModel.logout()
+                        
+                    }) {
+                        Image(systemName: "rectangle.portrait.and.arrow.right")
+                    }
+                }
             }
         }.navigationBarBackButtonHidden(true)
     }
